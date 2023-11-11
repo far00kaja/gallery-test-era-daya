@@ -1,15 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-
       <nav>
-        <RouterLink to="/" class="px-2 py-3 rounded-md bg-blue-300">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <!-- <RouterLink to="/" class="px-2 py-3 rounded-md bg-blue-300">Home</RouterLink> -->
+        <!-- <RouterLink to="/about">About</RouterLink> -->
       </nav>
     </div>
   </header>
