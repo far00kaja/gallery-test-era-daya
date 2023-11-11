@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["node", "vite/client"]
+  }
+}
